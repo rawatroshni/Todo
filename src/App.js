@@ -1,5 +1,6 @@
 import React from 'react'
 import Index from './props/Index'
+import State from './state/State'
 
 
 const App = () => {
@@ -8,7 +9,8 @@ const App = () => {
       <>
       <div className="App">App</div>
       {/* props  */}
-       {<Index data={Name}/> }
+       {/* {<Index data={Name}/> } */}
+       <State/>
     </>
   )
 }

@@ -2,12 +2,32 @@ NVM  => Node package version
 NPM => Node package manager 
 NPX => Node package execute 
 
+========================================== git command =========================
+old work pull =>
+
+git pull origin main 
+
+new work push => 
+git add .
+git commit -m "message "
+git push origin main 
+
+========================================== Component =========================
+
 
 Component => just a js function returning html this time 
 => capital => 
 
+========================================== props =========================
 
 Props => property =>  used to pass data from 1 component to another 
 Parent to child || child to parent   
 data type of props => object 
 props drilling => Prop drilling occurs when a prop needs to be passed through several layers of nested components to reach a deeply nested child component that actually needs the prop
+
+
+=========================================== HOOKS =========================
+
+
+useState => Just to store data , re rendering 
+Syntax = >     [variable , function] = useState(initialValue)

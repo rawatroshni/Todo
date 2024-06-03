@@ -2,6 +2,8 @@ import React from 'react'
 import SecondComponent from './SecondComponent';
 
 const FirstComponent = (props) => {
+
+  
   // console.log(props);
   return (
     <>
