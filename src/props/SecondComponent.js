@@ -1,9 +1,8 @@
 import React from 'react'
 
 const SecondComponent = (props) => {
-
   return (
-    <div>SecondComponent {props.heading}</div>
+    <div>SecondComponent {props.name}</div>
   )
 }
 
