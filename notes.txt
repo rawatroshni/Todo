@@ -1,3 +1,13 @@
 NVM  => Node package version
 NPM => Node package manager 
 NPX => Node package execute 
+
+
+Component => just a js function returning html this time 
+=> capital => 
+
+
+Props => property =>  used to pass data from 1 component to another 
+Parent to child || child to parent   
+data type of props => object 
+props drilling => Prop drilling occurs when a prop needs to be passed through several layers of nested components to reach a deeply nested child component that actually needs the prop
