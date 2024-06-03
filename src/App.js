@@ -1,6 +1,7 @@
 import React from 'react'
 import Index from './props/Index'
 import State from './state/State'
+import Condition from './conditional/Condition'
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       {/* props  */}
        {/* {<Index data={Name}/> } */}
        <State/>
+       {/* <Condition/> */}
     </>
   )
 }

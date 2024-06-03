@@ -31,3 +31,11 @@ props drilling => Prop drilling occurs when a prop needs to be passed through se
 
 useState => Just to store data , re rendering 
 Syntax = >     [variable , function] = useState(initialValue)
+
+
+
+=========================================== Conditions =========================
+
+everwhere we can apply conditions =>  
+
+will use {} before 
