@@ -1,0 +1,3 @@
+NVM  => Node package version
+NPM => Node package manager 
+NPX => Node package execute 
