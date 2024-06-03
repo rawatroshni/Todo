@@ -1,11 +1,17 @@
 import React, { useState } from 'react'
+import { ListGroup } from 'react-bootstrap';
 
 const State = () => {
     const [count, setCount] = useState(0);
 
     
     const handleIncrease = () => {
-        setCount(count + 1)
+        if (count < 15){
+            setCount(count + 1)
+        }else{
+           console.log("not be added"); 
+        }
+        
     }
 
     const handleDecrease = () => {
@@ -19,12 +25,12 @@ const State = () => {
     }
 
     return (
-        <div className="App">
+        <div className="App bg-primary">
 
 
-            <button onClick={handleDecrease}>-</button>
+            <button className='btn btn-sm btn-danger' onClick={handleDecrease}>-</button>
             {count}
-            <button onClick={handleIncrease}>+</button>
+            <button className='btn btn-sm btn-primary' onClick={handleIncrease}>+</button>
 
         </div>
     )
