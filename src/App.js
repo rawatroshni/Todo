@@ -1,14 +1,15 @@
-import './App.css';
-import FirstComponent from './FirstComponent.js';
+import React from 'react'
+import Index from './props/Index'
 
-function App() {
-  const data = "Shashank sharma is in app.js";
+const App = () => {
   return (
-    <div className="App">
-      App Component
-      <FirstComponent data={data} />
-    </div>
-  );
+      <>
+      <div className="App">App</div>
+      {/* props  */}
+      {/* <Index/> */}
+    
+    </>
+  )
 }
 
-export default App;
+export default App
