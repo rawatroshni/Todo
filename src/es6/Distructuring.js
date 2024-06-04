@@ -66,12 +66,24 @@ const Distructuring = () => {
   //   const {id , name , username , email , address , phone , website , company } =  user
   //   console.log(id , name , username , email , address , phone , website , company );
 
-   const array =[ "mango" , "Apple" ,"banana" , "grapes" , "pear"]
-   const  [one , Two ,Three , Four , Five] = array;
-   console.log(one , Two ,Three , Four , Five);
+   const array =[ "Mango" , "Apple" ,"Banana" , "Grapes" , "Pear"]
+   
+  //  const  [one , Two ,Three , Four , Five] = array;
+  //  console.log(one , Two ,Three , Four , Five);
+
+
+
 
     return (
+        <>
         <div className='App'>Distructuring</div>
+        <div>
+                  {array?.map((item) => {
+          return <div className={`${item==="Apple"?'text-danger bg-primary': item==="Mango"?`text-warning`: item==="Banana"?`text-warning`: item==="Grapes"?`text-success`:  item==="Pear"?`text-success`:"" }`}>{item}</div>
+        })}
+        </div>
+
+        </>
     )
 }
 

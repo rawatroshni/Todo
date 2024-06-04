@@ -15,8 +15,8 @@ const App = () => {
        {/* {<Index data={Name}/> } */}
        {/* <State/> */}
        {/* <Condition/> */}
-       {/* <Distructuring/> */}
-       <Map/>
+       { <Distructuring/> }
+       {/* <Map/> */}
     </>
   )
 }
