@@ -5,6 +5,7 @@ import Condition from './conditional/Condition'
 import Distructuring from './es6/Distructuring'
 import Map from './es6/Map'
 import Filter from './es6/Filter'
+import Search from './es6/Search'
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         {/* <Distructuring/>  */}
        {/* <Map/> */}
        <Filter/>
+       {/* <Search/> */}
     </>
   )
 }

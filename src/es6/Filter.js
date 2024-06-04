@@ -24,8 +24,10 @@ const Filter = () => {
                         })
                     }
                 </div>
+                
             </div>
         </>
+        
     )
 }
 
