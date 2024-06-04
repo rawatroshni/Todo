@@ -29,15 +29,12 @@ const Map = () => {
         <>
             <div className='App'>Map</div>
             <div className='App'>
-
-
                 {
                     Students.map((item) => {
                         return <div className={`${item === "Apple" ? 'text-danger' : ""}`}>{item}</div>
                     })
                 }
             </div>
-
         </>
     )
 }

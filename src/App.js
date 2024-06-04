@@ -4,6 +4,7 @@ import State from './state/State'
 import Condition from './conditional/Condition'
 import Distructuring from './es6/Distructuring'
 import Map from './es6/Map'
+import Filter from './es6/Filter'
 
 
 const App = () => {
@@ -15,8 +16,9 @@ const App = () => {
        {/* {<Index data={Name}/> } */}
        {/* <State/> */}
        {/* <Condition/> */}
-       { <Distructuring/> }
+        {/* <Distructuring/>  */}
        {/* <Map/> */}
+       <Filter/>
     </>
   )
 }

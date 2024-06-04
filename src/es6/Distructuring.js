@@ -1,44 +1,44 @@
 import React from 'react'
 
 const Distructuring = () => {
-    // const user = {
-    //     name: "Shashank Sharma",
-    //     age: 25,
-    //     isMarried: false,
-    //     phone: 8112357010
-    // }
-    // old method 
+  // const user = {
+  //     name: "Shashank Sharma",
+  //     age: 25,
+  //     isMarried: false,
+  //     phone: 8112357010
+  // }
+  // old method 
 
-    // const name = user.name;
-    // const age = user.age;
-    // const isMarried = user.isMarried;
-    // const phone = user.phone;
+  // const name = user.name;
+  // const age = user.age;
+  // const isMarried = user.isMarried;
+  // const phone = user.phone;
 
-    // new method object 
+  // new method object 
 
-    //  const {name , age , phone , isMarried , gender} = {
-    //     name: "Shashank Sharma",
-    //     age: 25,
-    //     isMarried: false,
-    //     phone: 8112357010,
-    //     gender : "Male"
-    // }
+  //  const {name , age , phone , isMarried , gender} = {
+  //     name: "Shashank Sharma",
+  //     age: 25,
+  //     isMarried: false,
+  //     phone: 8112357010,
+  //     gender : "Male"
+  // }
 
-    // array distructuring 
+  // array distructuring 
 
-    // const array = ["shashank sharma" , 8112357010 , "male"  , true ]
+  // const array = ["shashank sharma" , 8112357010 , "male"  , true ]
 
-    // const [firstname , phone  , isMarried, gender  , data ] = array ;
+  // const [firstname , phone  , isMarried, gender  , data ] = array ;
 
-    // console.log(firstname , phone , isMarried , gender , data);
-
-
-    // Home work 
+  // console.log(firstname , phone , isMarried , gender , data);
 
 
-    
+  // Home work 
 
-    // Distructure the following object 
+
+
+
+  // Distructure the following object 
 
   //   const user = {
   //   "id": 1,
@@ -66,25 +66,25 @@ const Distructuring = () => {
   //   const {id , name , username , email , address , phone , website , company } =  user
   //   console.log(id , name , username , email , address , phone , website , company );
 
-   const array =[ "Mango" , "Apple" ,"Banana" , "Grapes" , "Pear"]
-   
+  const array = ["Mango", "Apple", "Banana", "Grapes", "Pear"]
+
   //  const  [one , Two ,Three , Four , Five] = array;
   //  console.log(one , Two ,Three , Four , Five);
 
 
 
 
-    return (
-        <>
-        <div className='App'>Distructuring</div>
-        <div>
-                  {array?.map((item) => {
-          return <div className={`${item==="Apple"?'text-danger bg-primary': item==="Mango"?`text-warning`: item==="Banana"?`text-warning`: item==="Grapes"?`text-success`:  item==="Pear"?`text-success`:"" }`}>{item}</div>
+  return (
+    <>
+      <div className='App'>Distructuring</div>
+      <div>
+        {array?.map((item) => {
+          return <div className={`${item === "Apple" ? 'text-danger bg-primary' : item === "Mango" ? `text-warning` : item === "Banana" ? `text-warning` : item === "Grapes" ? `text-success` : item === "Pear" ? `text-success` : ""}`}>{item}</div>
         })}
-        </div>
+      </div>
 
-        </>
-    )
+    </>
+  )
 }
 
 export default Distructuring
