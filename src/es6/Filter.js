@@ -24,6 +24,16 @@ const Filter = () => {
                         })
                     }
                 </div>
+
+                {
+                    students.filter((item) => item.includes(search)).length === 0 &&
+                    (
+                        <div>
+                            No data found
+                            </div>
+                    )
+
+                }
                 
             </div>
         </>
