@@ -23,7 +23,7 @@ const Map = () => {
     // console.log(finalArray);
 
 
-    const Students = ["Shashank", "Shivam", "Anmol", "Sunita", "Roshni"]
+    const Students = ["Apple", "Mango", "Kiwi", "Banana"]
 
     return (
         <>
@@ -33,7 +33,7 @@ const Map = () => {
 
                 {
                     Students.map((item) => {
-                        return <div>{item}</div>
+                        return <div className={`${item === "Apple" ? 'text-danger' : ""}`}>{item}</div>
                     })
                 }
             </div>
