@@ -24,7 +24,7 @@ const State = () => {
     }
 
     return (
-        <div className={`App ${count === 10 ? 'bg-primary' : ''}`}>
+    <div className={`App ${count === 10 ? 'bg-primary' : ''}`}>
             <button className='btn btn-sm btn-danger' onClick={handleDecrease}>-</button>
             {count}
             <button className='btn btn-sm btn-primary' onClick={handleIncrease}>+</button>
