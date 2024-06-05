@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { data1, data2 } from "../data/dummyDada"
+import { data1, data2 , data3 } from "../data/dummyDada"
 
 const Methods = () => {
 
@@ -28,7 +28,7 @@ const Methods = () => {
         // }
     })
 
-    console.log(newArray ,"newArray");
+    
 
 
 
@@ -38,7 +38,17 @@ const Methods = () => {
 
 
 
+     const finalArray = data3.map((item)=>{
+        if(item.name.split(' ').length === 2) {
+            return item
+        }else {
+            return {
+                name : `${item.name} ${prompt(`Enter sur name for ${item.name}`)}`
+            }
+        }
+     })
 
+     console.log(finalArray);
 
 
 

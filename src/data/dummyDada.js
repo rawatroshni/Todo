@@ -45,7 +45,7 @@ export const data3 = [{
     name: "Roshni",
 },
 {
-    name: "Anmol ",
+    name: "Anmol",
 },
 {
     name: "Shivam Sharma",
