@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { data1 } from "../data/dummyDada"
+import { data1 , data2} from "../data/dummyDada"
 
 const Methods = () => {
    
@@ -18,10 +18,15 @@ const Methods = () => {
             }
         }
     })
+    
 
 
 
-    console.log(newArray, "new Array");
+    const maleArray = data2.filter((item)=>item.gender === "Male")
+    const femaleArray = data2.filter((item)=>item.gender === "Female")
+
+
+
 
 
 
