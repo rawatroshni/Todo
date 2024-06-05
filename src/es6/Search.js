@@ -22,7 +22,14 @@ const Search = () => {
          return <div>{item}</div>
       })
      }
+
     </div>
+
+    {
+      display.filter((item)=> item.includes(firstName)).length === 0 && (
+        <div> No DATA Found</div>
+      )
+    }
 
     </div>
     </>

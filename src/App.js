@@ -19,8 +19,8 @@ const App = () => {
        {/* <Condition/> */}
         {/* <Distructuring/>  */}
        {/* <Map/> */}
-       <Filter/>
-       {/* <Search/> */}
+       {/* <Filter/> */}
+       <Search/>
     </>
   )
 }
