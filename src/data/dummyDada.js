@@ -51,6 +51,23 @@ export const data3 = [{
     name: "Shivam Sharma",
 }]
 
+export const data4 = [
+    1,
+    2,
+    3,
+    4,
+    5
+]
+
+// output
+// [
+//     "odd",
+//     "even",
+//     "odd",
+//     "even",
+//     "odd"
+// ]
+
 
 
 
