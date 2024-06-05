@@ -38,3 +38,19 @@ export const data2 = [{
 }]
 
 
+export const data3 = [{
+    name: "Shashank Sharma",
+},
+{
+    name: "Roshni",
+},
+{
+    name: "Anmol ",
+},
+{
+    name: "Shivam Sharma",
+}]
+
+
+
+
