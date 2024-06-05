@@ -6,6 +6,7 @@ import Distructuring from './es6/Distructuring'
 import Map from './es6/Map'
 import Filter from './es6/Filter'
 import Search from './es6/Search'
+import Methods from './javascript/Methods'
 
 
 const App = () => {
@@ -20,7 +21,8 @@ const App = () => {
         {/* <Distructuring/>  */}
        {/* <Map/> */}
        {/* <Filter/> */}
-       <Search/>
+       {/* <Search/> */}
+       <Methods/>
     </>
   )
 }
