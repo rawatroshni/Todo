@@ -4,7 +4,7 @@ import { data1 } from "../data/dummyDada"
 
 const Methods = () => {
    
-    const newArray = data.map((item) => {
+    const newArray = data1.map((item) => {
         if (item.age >= 18) {
             return {
                 ...item,
