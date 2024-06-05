@@ -5,7 +5,8 @@ const Filter = () => {
     const students = ["Shashank", "Anmol", "Shivam", "Anshul", "Zahid", "Mukesh"]
 
 
-    const filtered = students.filter((item) => item.includes(search));
+    // const filtered = students.filter((item) => item.includes(search));
+    const filtered = students.filter((item) => item.toUpperCase().includes(search.toUpperCase()));
     console.log(filtered);
 
     return (
@@ -19,11 +20,23 @@ const Filter = () => {
                 <div className='mt-4'>
                     <h4>Students</h4>
                     {
-                        students.filter((item) => item.includes(search)).map((item) => {
+                        // students.filter((item) => item.includes(search)).map
+                         students
+                            .filter((item) => item.toUpperCase().includes(search.toUpperCase()))
+                        .map((item) => {
                             return <div>{item}</div>
                         })
                     }
                 </div>
+
+                {
+                    // students.filter((item) => item.includes(search)).length === 0 && (
+                        students.filter((item) => item.toUpperCase().includes(search.toUpperCase())).length === 0 && (
+                    <div>
+                        error
+                    </div>
+                    )
+                }
                 
             </div>
         </>
