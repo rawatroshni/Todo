@@ -39,3 +39,28 @@ Syntax = >     [variable , function] = useState(initialValue)
 everwhere we can apply conditions =>  
 
 will use {} before 
+
+
+
+API => Application programming interface  =>   to carry data from client to server and server to client =>
+
+Dakiya => daak lejana => url  , data 
+// js => fetch => feature => cons => time json {"name" : "shashank"} ;
+// AXIOS => syntax easy + automatic jaon converter 
+
+
+axios.post(url , data).then((res)=>res).catch((err)=>err) ;
+axios.get(url).then((res)=>res).catch((err)=>err) ;
+axios.delete(url + id).then((res)=>res).catch((err)=>err) ;
+axios.patch(url + id , data).then((res)=>res).catch((err)=>err) ;
+
+
+
+methods => 
+C => Create 
+R => Read
+U => Update
+D => Delete 
+
+
+
