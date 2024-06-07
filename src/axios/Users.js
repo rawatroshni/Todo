@@ -13,12 +13,10 @@ const [search , setSearch] = useState('')
             console.log(err);
         })
     }
-useEffect(()=>{
-    fetchUsers()
-},[])
-
-      
-
+    useEffect(()=>{
+        fetchUsers()
+    },[])
+    
 
     return (
         <>
@@ -28,19 +26,21 @@ useEffect(()=>{
         <input type='search' onChange={(e)=>setSearch(e.target.value.toLowerCase())} className='form-control w-25' placeholder='Search Users'/>
         </div>
         {
-            users.filter((item)=>item.name.toLowerCase().includes(search)).map((item)=>{
-                return <div>{item.name}</div>
+            users.filter((item)=>item.email.toLowerCase().includes(search)).map((item)=>{
+                return <div>{item.email}</div>
             })
         }
          {
-            users.filter((item)=>item.name.toLowerCase().includes(search)).length === 0 && (
+            users.filter((item)=>item.email.toLowerCase().includes(search)).length === 0 && (
                 <div>
                     {
-                        `User with this name ${search} does't exist `
+                        `User with this email ${search} does't exist `
                     }
                 </div>
+            
             )
          }
+         
         </>
     )
 }

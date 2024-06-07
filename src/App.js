@@ -8,7 +8,7 @@ import Filter from './es6/Filter'
 import Search from './es6/Search'
 import Methods from './javascript/Methods'
 import Users from './axios/Users'
-
+import Todos from './axios/Todos'
 
 const App = () => {
   const Name = "Roshni"
@@ -24,7 +24,8 @@ const App = () => {
        {/* <Filter/> */}
        {/* <Search/> */}
        {/* <Methods/> */}
-       <Users/>
+       {/* <Users/> */}
+       <Todos/>
     </>
   )
 }
