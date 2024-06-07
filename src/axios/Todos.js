@@ -25,10 +25,9 @@ useEffect(()=>{
     {
     todo.filter((item)=>item.title.toLowerCase().includes(search)).map((item)=>{
       return   <div 
-      className="input"
-      style={{ color: item.completed ? 'text-success' : 'text-warning' }}
+      className={`${item.completed ? 'text-success' : 'text-warning'}`}
     >
-      {item.completed}
+      {item.title}
     </div>
       
       
